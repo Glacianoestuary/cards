@@ -5,63 +5,80 @@
   "isDefaultForLanguage": true,
   "cards": [
     {
-      "id": "0-1",
-      "title": "Qu'est-ce qu'il se passe ???",
+      "id": "keskisspass",
+      "title": "Qu'est-ce qu'il se passe ?",
+      "text": "Du texte",
       "items": [
-        { "text": "Inconfort sensoriel", "nextCardId": "1-1" },
-        { "text": "Tensions et douleurs", "nextCardId": "1-3" },
-        { "text": "Dans la tête (moral/humeur)", "nextCardId": "1-2" },
-        { "text": "Je m'ennuie (à mourir)", "nextCardId": "1-4" }
+        { "text": "Check de mes besoins vitaux", "nextCardId": "checkdemesbesoinsvitaux" },
+        { "text": "Trucs sensoriels", "nextCardId": "trucssensoriels" },
+        { "text": "J'ai mal dans mon corps", "nextCardId": "jaimaldansmoncorps" },
+        { "text": "Je ressens des émotions fortes", "nextCardId": "jeressensdesemotionsfortes" },
+        { "text": "Je suis pas bien dans ma tête", "nextCardId": "jesuispasbiendansmatete" }
       ]
     },
     {
-      "id": "1-1",
-      "title": "Inconfort sensoriel",
+      "id": "checkdemesbesoinsvitaux",
+      "title": "Check de mes besoins vitaux",
       "items": [
-        { "text": "J'ai froid", "nextCardId": "2-1" },
-        { "text": "J'ai chaud", "nextCardId": "2-11" },
-        { "text": "J'ai faim", "nextCardId": "2-2" },
-        { "text": "J'ai soif", "nextCardId": "2-12" },
-        { "text": "J'ai envie d'aller aux wc", "nextCardId": "2-3" },
-        { "text": "J'ai mal quelque part", "nextCardId": "2-4" },
-        { "text": "Je me sens fatigué", "nextCardId": "2-5" },
-        { "text": "Je me sens sale", "nextCardId": "2-6" },
-        { "text": "Ca me gratte", "nextCardId": "2-7" },
-        { "text": "Je sens une odeur", "nextCardId": "2-8" },
-        { "text": "Le bruit me dérange", "nextCardId": "2-9" },
-        { "text": "Hyperventilation", "nextCardId": "2-10" }
+        { "text": "J'ai froid", "nextCardId": "1" },
+        { "text": "J'ai chaud", "nextCardId": "2" },
+        { "text": "J'ai faim", "nextCardId": "3" },
+        { "text": "J'ai soif", "nextCardId": "4" },
+        { "text": "J'ai envie d'aller aux wc", "nextCardId": "5" },
+        { "text": "Je me sens fatigué", "nextCardId": "6" },
+        { "text": "J'ai sommeil", "nextCardId": "7" },
+        { "text": "J'arrive pas à dormir", "nextCardId": "8" }
       ]
     },
     {
-      "id": "1-2",
-      "title": "Dans la tête (moral/humeur)",
+      "id": "trucssensoriels",
+      "title": "Trucs sensoriels",
       "items": [
-        { "text": "Irritabilité facile / Tout me soule", "nextCardId": "" },
-        { "text": "Pensées négatives/sombres qui bouclent", "nextCardId": "" },
-        { "text": "Pensées anxieuses qui bouclent", "nextCardId": "" },
-        { "text": "Envie de taper/casser", "nextCardId": "" },
-        { "text": "Sensation de trop plein dans la tête", "nextCardId": "" },
-        { "text": "Je me sens vide/vidé.e", "nextCardId": "" },
-        { "text": "Je sens plus mon corps", "nextCardId": "" },
-        { "text": "Je me sens épuisé.e", "nextCardId": "" }
+        { "text": "Je me sens sale", "nextCardId": "10" },
+        { "text": "Ca me gratte", "nextCardId": "11" },
+        { "text": "Je sens une odeur", "nextCardId": "12" },
+        { "text": "Le bruit me dérange", "nextCardId": "13" }
       ]
     },
     {
-      "id": "1-3",
-      "title": "Tensions et douleurs",
+      "id": "jaimaldansmoncorps",
+      "title": "J'ai mal dans mon corps",
       "items": [
-        { "text": "Tension dans les épaules/le cou", "nextCardId": "" },
-        { "text": "Mal aux yeux / yeux gonflés", "nextCardId": "" },
-        { "text": "Mal de tête", "nextCardId": "" },
-        { "text": "Tension dans la colonne vertébrale", "nextCardId": "" },
-        { "text": "Mal au ventre", "nextCardId": "" },
-        { "text": "Ventre qui gonfle", "nextCardId": "" }
+        { "text": "J'ai les épaules et / ou la nuque tendu.e.s", "nextCardId": "20" },
+        { "text": "J'ai mal aux yeux / j'ai les yeux gonflés", "nextCardId": "21" },
+        { "text": "J'ai mal de tête", "nextCardId": "22" },
+        { "text": "Je ressens une tension le long de la colonne vertébrale", "nextCardId": "23" },
+        { "text": "J'ai mal au ventre", "nextCardId": "24" },
+        { "text": "J'ai le ventre qui gonflé", "nextCardId": "25" },
+        { "text": "Je me sens physiquement oppressé.e", "nextCardId": "26" },
+        { "text": "Je respire mal", "nextCardId": "27" },
+        { "text": "Je ne sens plus mon corps", "nextCardId": "28" }
       ]
     },
     {
-      "id": "1-4",
-      "title": "Je m'ennuie à mourir",
-      "items": [{ "text": "", "nextCardId": "" }]
+      "id": "jeressensdesemotionsfortes",
+      "title": "Je ressens des émotions fortes",
+      "items": [
+        { "text": "J'ai peur", "nextCardId": "30" },
+        { "text": "J'angoisse", "nextCardId": "31" },
+        { "text": "Je me sens en colère", "nextCardId": "32" },
+        { "text": "Je me sens seul.e", "nextCardId": "33" },
+        { "text": "Je me sens abandonné.e", "nextCardId": "34" },
+        { "text": "Je m'ennui.e profondément", "nextCardId": "35" },
+        { "text": "Je me sens sur-excité.e", "nextCardId": "36" }
+      ]
+    },
+    {
+      "id": "jesuispasbiendansmatete",
+      "title": "Je suis pas bien dans ma tête",
+      "items": [
+        { "text": "Je suis facilement irritable", "nextCardId": "40" },
+        { "text": "J'ai l'impression que rien ne va, c'est trop dur", "nextCardId": "41" },
+        { "text": "J'ai des pensées anxieuses qui tournent", "nextCardId": "42" },
+        { "text": "J'ai besoin de taper/casser/faire du mal", "nextCardId": "43" },
+        { "text": "J'ai la sensation que ma tête est trop pleine", "nextCardId": "44" },
+        { "text": "Je me sens vide/vidé.e/épuisé.e", "nextCardId": "45" }
+      ]
     },
     {
       "id": "2-1",

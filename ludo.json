@@ -30,7 +30,6 @@
         { "text": "J'arrive pas à dormir", "nextCardId": "8" }
       ]
     },
-    /* LOL COMMENT */
     {
       "id": "1",
       "title": "J'ai froid",
@@ -74,30 +73,25 @@
       "id": "5",
       "title": "J'ai envie d'aller aux wc",
       "items": [
-        { "text": ""},
-        { "text": ""},
-        { "text": ""},
-        { "text": ""}
+        { "text": "Aller aux wc"}
       ]
     },
     {
       "id": "6",
       "title": "Je me sens fatigué",
       "items": [
-        { "text": ""},
-        { "text": ""},
-        { "text": ""},
-        { "text": ""}
+        { "text": "J'ai sommeil, j'ai de signes de somnolence", "nextCardId": "7"},
+        { "text": "Je suis fatigué.e cognitivement ou émotionnellement", "nextCardId": "jesuispasbiendansmatete"}
       ]
     },
     {
       "id": "7",
       "title": "J'ai sommeil",
       "items": [
-        { "text": ""},
-        { "text": ""},
-        { "text": ""},
-        { "text": ""}
+        { "text": "Faire une sieste de 20 min dans le canapé, sous la couverture lestée"},
+        { "text": "Faire une sieste de 20 min dans le lit, sous la couette"},
+        { "text": "Aller me coucher plus tôt le soir"},
+        { "text": "Me coucher dans le lit ou sur le canapé et regarder un film ou une série"}
       ]
     },
     {

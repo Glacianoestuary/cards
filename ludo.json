@@ -98,10 +98,22 @@
       "id": "8",
       "title": "J'arrive pas à dormir",
       "items": [
-        { "text": ""},
-        { "text": ""},
-        { "text": ""},
-        { "text": ""}
+        { "text": "J'ai du mal à m'endormir", "nextCardId": "8-1"},
+        { "text": "Je fais une insomnie", "nextCardId": "8-2"}
+      ]
+    },
+    {
+      "id": "8-1",
+      "title": "J'ai du mal à m'endormir",
+      "items": [
+        { "text": "(a remplir)"},
+      ]
+    },
+    {
+      "id": "8-2",
+      "title": "Je fais une insomnie",
+      "items": [
+        { "text": "(a remplir)"},
       ]
     },
     {
@@ -118,20 +130,39 @@
       "id": "10",
       "title": "Je me sens sale",
       "items": [
-        { "text": ""},
-        { "text": ""},
-        { "text": ""},
-        { "text": ""}
+        { "text": "Me laver au robinet"},
+        { "text": "Prendre une douche"},
+        { "text": "Changer de vêtements"}
       ]
     },   
     {
       "id": "11",
       "title": "Ca me gratte",
       "items": [
-        { "text": ""},
-        { "text": ""},
-        { "text": ""},
-        { "text": ""}
+        { "text": "Est-ce que je me sens sale ?","nextCardId": "10"},
+        { "text": " Mettre de la crème hydratante ou du beurre de karité"},
+        { "text": "Me gratter sous la douche avec le gratte gratte "},
+        { "text": "Me gratter avec les mains / la brosse"},
+        { "text": "Demander à quelqu'un de me gratter"}
+      ]
+    },   
+    {
+      "id": "12",
+      "title": "Je sens une odeur",
+      "text": "Trouver l'origine de l'odeur",
+      "items": [
+        { "text": "L'odeur vient de mon propre corps", "nextCardId": "12-1"},
+        { "text": "L'odeur vient de dedans chez moi", "nextCardId": "12-2"},
+        { "text": "L'odeur vient de dehors", "nextCardId": "12-3"}
+      ]
+    },   
+    {
+      "id": "13",
+      "title": "Le bruit me dérange",
+      "text": "Trouver l'origine du bruit",
+      "items": [
+        { "text": "Le bruit vient de dehors", "nextCardId": "13-1" },
+        { "text": "Le bruit vient de dedans la maison", "nextCardId": "13-2" }
       ]
     },   
     {

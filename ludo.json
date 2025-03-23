@@ -106,14 +106,14 @@
       "id": "8-1",
       "title": "J'ai du mal à m'endormir",
       "items": [
-        { "text": "(a remplir)"},
+        { "text": "(a remplir)"}
       ]
     },
     {
       "id": "8-2",
       "title": "Je fais une insomnie",
       "items": [
-        { "text": "(a remplir)"},
+        { "text": "(a remplir)"}
       ]
     },
     {
@@ -156,6 +156,27 @@
         { "text": "L'odeur vient de dehors", "nextCardId": "12-3"}
       ]
     },   
+    {
+      "id": "12-1",
+      "title": "TODO",
+      "items": [
+        { "text": "(a remplir)"}
+      ]
+    },
+    {
+      "id": "12-2",
+      "title": "TODO",
+      "items": [
+        { "text": "(a remplir)"}
+      ]
+    },
+    {
+      "id": "12-3",
+      "title": "L'odeur vient de dehors",
+      "items": [
+        { "text": "(a remplir)"}
+      ]
+    },
     {
       "id": "13",
       "title": "Le bruit me dérange",

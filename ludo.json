@@ -158,23 +158,35 @@
     },   
     {
       "id": "12-1",
-      "title": "TODO",
+      "title": "L'odeur vient de mon propre corps",
       "items": [
-        { "text": "(a remplir)"}
+        { "text": "Me laver les mains" },
+        { "text": "Me laver le visage" },
+        { "text": "Me laver complètement" },
+        { "text": "Changer de vêtements" },
+        { "text": "Mettre du parfum" },
+        { "text": "Mettre une crème parfumée sur les mains et le visage" }
       ]
     },
     {
       "id": "12-2",
-      "title": "TODO",
+      "title": "L'odeur vient de dedans chez moi",
       "items": [
-        { "text": "(a remplir)"}
+        { "text": "Laver les couvertures / coussins / draps" },
+        { "text": "Aérer les pièces en ouvrant les fenêtres" },
+        { "text": "Allumer une bougie parfumée" },
+        { "text": "Mettre de l'huile essentielle de lavande" },
+        { "text": "Laver le sol avec eau + huile essentielle de menthe poivrée" }
       ]
     },
     {
       "id": "12-3",
       "title": "L'odeur vient de dehors",
       "items": [
-        { "text": "(a remplir)"}
+        { "text": "Fermer les fenêtres" },
+        { "text": "Allumer une bougie parfumée" },
+        { "text": "Mettre de l'huile esentielle de lavande" },
+        { "text": "Laver le sol avec eau + huile essentielle de menthe poivrée" }
       ]
     },
     {
@@ -186,6 +198,20 @@
         { "text": "Le bruit vient de dedans la maison", "nextCardId": "13-2" }
       ]
     },   
+    {
+      "id": "13-1",
+      "title": "Le bruit vient de dehors",
+      "items": [
+        { "text": "(a remplir)"}
+      ]
+    },
+    {
+      "id": "13-2",
+      "title": "Le bruit vient de dedans la maison",
+      "items": [
+        { "text": "(a remplir)"}
+      ]
+    },
     {
       "id": "jaimaldansmoncorps",
       "title": "J'ai mal dans mon corps",
@@ -199,6 +225,62 @@
         { "text": "Je me sens physiquement oppressé.e", "nextCardId": "26" },
         { "text": "Je respire mal", "nextCardId": "27" },
         { "text": "Je ne sens plus mon corps", "nextCardId": "28" }
+      ]
+    },
+    {
+      "id": "20",
+      "title": "J'ai les épaules et/ou la nuque tendu.e.s",
+      "items": [
+        { "text": "(a remplir)"}
+      ]
+    },
+    {
+      "id": "21",
+      "title": "J'ai mal aux yeux / j'ai les yeux gonflés",
+      "items": [
+        { "text": "(a remplir)"}
+      ]
+    },
+    {
+      "id": "22",
+      "title": "J'ai mal à la tête",
+      "items": [
+        { "text": "(a remplir)"}
+      ]
+    },
+    {
+      "id": "23",
+      "title": "Je ressens une tension le long de la colonne vertébrale",
+      "items": [
+        { "text": "(a remplir)"}
+      ]
+    },
+    {
+      "id": "24",
+      "title": "J'ai mal au ventre / j'ai le ventre gonflé",
+      "items": [
+        { "text": "(a remplir)"}
+      ]
+    },
+    {
+      "id": "25",
+      "title": "Je me sens oppressé physiquement",
+      "items": [
+        { "text": "(a remplir)"}
+      ]
+    },
+    {
+      "id": "26",
+      "title": "Je respire mal",
+      "items": [
+        { "text": "(a remplir)"}
+      ]
+    },
+    {
+      "id": "27",
+      "title": "Je ne sens plus mon corps",
+      "items": [
+        { "text": "(a remplir)"}
       ]
     },
     {
@@ -219,8 +301,7 @@
       "title": "Je suis pas bien dans ma tête",
       "items": [
         { "text": "Je suis facilement irritable", "nextCardId": "40" },
-        { "text": "J'ai l'impression que rien ne va, c'est trop dur", "nextCardId": "41" },
-        { "text": "J'ai des pensées anxieuses qui tournent", "nextCardId": "42" },
+        { "text": "J'ai l'impression que rien ne va, c'est trop dur", "nextCardId": "41" },        { "text": "J'ai des pensées anxieuses qui tournent", "nextCardId": "42" },
         { "text": "J'ai besoin de taper/casser/faire du mal", "nextCardId": "43" },
         { "text": "J'ai la sensation que ma tête est trop pleine", "nextCardId": "44" },
         { "text": "Je me sens vide/vidé.e/épuisé.e", "nextCardId": "45" }
@@ -234,4 +315,5 @@
       "items": [{ "text": "( ˶ˆᗜˆ˵ ) " }]
     }
   ]
+}
 }

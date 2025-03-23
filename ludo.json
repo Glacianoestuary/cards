@@ -30,6 +30,88 @@
         { "text": "J'arrive pas à dormir", "nextCardId": "8" }
       ]
     },
+    /* LOL COMMENT */
+    {
+      "id": "1",
+      "title": "J'ai froid",
+      "items": [
+        { "text": "Mettre une veste / un pull"},
+        { "text": "Mettre ma combinaison panthère"},
+        { "text": "Utiliser ma bouillote chaude"},
+        { "text": "Faire un feu / mettre le chauffage"}
+      ]
+    },
+    {
+      "id": "2",
+      "title": "J'ai chaud",
+      "items": [
+        { "text": "Enlever mon sweat/ma veste"},
+        { "text": "Changer de t-shirt"},
+        { "text": "Me mettre de l'eau sur le visage, les bras"},
+        { "text": "Prendre une douche froide"},
+        { "text": "Ouvrir une fenêtre"}
+
+      ]
+    },
+    {
+      "id": "3",
+      "title": "J'ai faim",
+      "items": [
+        { "text": "Prendre mon repas du midi/du soir/le gouter"},
+        { "text": "Prendre une collation : amandes, fruits, yaourts, tartines"}
+      ]
+    },
+    {
+      "id": "4",
+      "title": "J'ai soif",
+      "items": [
+        { "text": ""},
+        { "text": ""},
+        { "text": ""},
+        { "text": ""}
+
+      ]
+    },
+    {
+      "id": "5",
+      "title": "J'ai envie d'aller aux wc",
+      "items": [
+        { "text": ""},
+        { "text": ""},
+        { "text": ""},
+        { "text": ""}
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Je me sens fatigué",
+      "items": [
+        { "text": ""},
+        { "text": ""},
+        { "text": ""},
+        { "text": ""}
+      ]
+    },
+    {
+      "id": "7",
+      "title": "J'ai sommeil",
+      "items": [
+        { "text": ""},
+        { "text": ""},
+        { "text": ""},
+        { "text": ""}
+      ]
+    },
+    {
+      "id": "8",
+      "title": "J'arrive pas à dormir",
+      "items": [
+        { "text": ""},
+        { "text": ""},
+        { "text": ""},
+        { "text": ""}
+      ]
+    },
     {
       "id": "trucssensoriels",
       "title": "Trucs sensoriels",
@@ -40,6 +122,26 @@
         { "text": "Le bruit me dérange", "nextCardId": "13" }
       ]
     },
+    {
+      "id": "10",
+      "title": "Je me sens sale",
+      "items": [
+        { "text": ""},
+        { "text": ""},
+        { "text": ""},
+        { "text": ""}
+      ]
+    },   
+    {
+      "id": "11",
+      "title": "Ca me gratte",
+      "items": [
+        { "text": ""},
+        { "text": ""},
+        { "text": ""},
+        { "text": ""}
+      ]
+    },   
     {
       "id": "jaimaldansmoncorps",
       "title": "J'ai mal dans mon corps",
@@ -80,40 +182,8 @@
         { "text": "Je me sens vide/vidé.e/épuisé.e", "nextCardId": "45" }
       ]
     },
-    {
-      "id": "2-1",
-      "title": "J'ai chaud/froid ?",
-      "items": [
-        { "text": "- Je prends un/des vêtements", "nextCardId": "end" },
-        { "text": "- Je prends une couverture", "nextCardId": "end" },
-        { "text": "- Je règle le chauffage", "nextCardId": "end" }
-      ]
-    },
-    {
-      "id": "2-2",
-      "title": "J'ai faim/soif",
-      "items": []
-    },
-    {
-      "id": "2-3",
-      "title": "J'ai envie d'aller aux wc ?",
-      "items": []
-    },
-    {
-      "id": "2-4",
-      "title": "J'ai mal quelque part",
-      "items": []
-    },
-    {
-      "id": "2-5",
-      "title": "J'ai sommeil",
-      "items": []
-    },
-    {
-      "id": "2-6",
-      "title": "Je me sens sale",
-      "items": []
-    },
+   
+   
     {
       "id": "end",
       "title": "Bravo !",

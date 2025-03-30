@@ -1,6 +1,7 @@
 {
   "id": "ludo_fr",
   "title": "Ludo",
+  "formatVersion": 1,
   "lang": "fr",
   "isDefaultForLanguage": true,
   "cards": [

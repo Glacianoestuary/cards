@@ -4,316 +4,59 @@
   "formatVersion": 1,
   "lang": "fr",
   "isDefaultForLanguage": true,
+  "description": "",
   "cards": [
     {
       "id": "keskisspass",
-      "title": "Qu'est-ce qu'il se passe ?",
-      "text": "Du texte",
+      "title": "Je suis là, je vais t'aider. Tu sais ce que tu ressens/vis ?",
       "items": [
-        { "text": "Check de mes besoins vitaux", "nextCardId": "checkdemesbesoinsvitaux" },
-        { "text": "Trucs sensoriels", "nextCardId": "trucssensoriels" },
-        { "text": "J'ai mal dans mon corps", "nextCardId": "jaimaldansmoncorps" },
-        { "text": "Je ressens des émotions fortes", "nextCardId": "jeressensdesemotionsfortes" },
-        { "text": "Je suis pas bien dans ma tête", "nextCardId": "jesuispasbiendansmatete" }
+        { "text": "Oui", "nextCardId": "ressens_oui" },
+        { "text": "Non", "nextCardId": "ressens_non" }
       ]
     },
     {
-      "id": "checkdemesbesoinsvitaux",
-      "title": "Check de mes besoins vitaux",
+      "id": "ressens_oui",
+      "title": "Ok, est-ce que tu veux...",
       "items": [
-        { "text": "J'ai froid", "nextCardId": "1" },
-        { "text": "J'ai chaud", "nextCardId": "2" },
-        { "text": "J'ai faim", "nextCardId": "3" },
-        { "text": "J'ai soif", "nextCardId": "4" },
-        { "text": "J'ai envie d'aller aux wc", "nextCardId": "5" },
-        { "text": "Je me sens fatigué", "nextCardId": "6" },
-        { "text": "J'ai sommeil", "nextCardId": "7" },
-        { "text": "J'arrive pas à dormir", "nextCardId": "8" }
+        { "text": "Agir, parce que tu veux une solution maintenant", "nextCardId": "besoin_de" },
+        { "text": "Prendre le temps de faire exister ce que tu vis", "nextCardId": "faire_exister" }
       ]
     },
     {
-      "id": "1",
-      "title": "J'ai froid",
+      "id": "faire_exister",
+      "title": "Tu peux...",
       "items": [
-        { "text": "Mettre une veste / un pull"},
-        { "text": "Mettre ma combinaison panthère"},
-        { "text": "Utiliser ma bouillote chaude"},
-        { "text": "Faire un feu / mettre le chauffage"}
+        { "text": "Le dire à qq oralement", "nextCardId": "exister_dire" },
+        { "text": "L'écrire à qq", "nextCardId": "exiter_ecrire_qq" },
+        { "text": "L'écrire à moi-même", "nextCardId": "exiter_ecrire_moi" },
+        { "text": "Le dessiner", "nextCardId": "" },
+        { "text": "Le chanter", "nextCardId": "" },
+        { "text": "Le danser", "nextCardId": "" },
+        { "text": "Le crier", "nextCardId": "" },
+        { "text": "Le méditer", "nextCardId": "" },
+        { "text": "Respirer avec", "nextCardId": "" },
+        { "text": "Utiliser les cartes d'emotions/ressentis/besoins", "nextCardId": "exister_utiliser_cartes" }
       ]
     },
     {
-      "id": "2",
-      "title": "J'ai chaud",
+      "id": "besoin_de",
+      "title": "As-tu besoin de...",
       "items": [
-        { "text": "Enlever mon sweat/ma veste"},
-        { "text": "Changer de t-shirt"},
-        { "text": "Me mettre de l'eau sur le visage, les bras"},
-        { "text": "Prendre une douche froide"},
-        { "text": "Ouvrir une fenêtre"}
-
+        { "text": "Défouler", "nextCardId": "1" },
+        { "text": "Détendre", "nextCardId": "2" },
+        { "text": "Jouer", "nextCardId": "3" },
+        { "text": "Organiser", "nextCardId": "4" },
+        { "text": "Détourner l'attention", "nextCardId": "5" },
+        { "text": "Contact physique", "nextCardId": "6" },
+        { "text": "Aide extérieure", "nextCardId": "7" }
       ]
     },
     {
-      "id": "3",
-      "title": "J'ai faim",
+      "id": "ressens_non",
+      "title": "???",
       "items": [
-        { "text": "Prendre mon repas du midi/du soir/le gouter"},
-        { "text": "Prendre une collation : amandes, fruits, yaourts, tartines"}
+        
       ]
-    },
-    {
-      "id": "4",
-      "title": "J'ai soif",
-      "items": [
-        { "text": "Boire de l'eau"},
-        { "text": "Me faire une tisane"}
-
-      ]
-    },
-    {
-      "id": "5",
-      "title": "J'ai envie d'aller aux wc",
-      "items": [
-        { "text": "Aller aux wc"}
-      ]
-    },
-    {
-      "id": "6",
-      "title": "Je me sens fatigué",
-      "items": [
-        { "text": "J'ai sommeil, j'ai de signes de somnolence", "nextCardId": "7"},
-        { "text": "Je suis fatigué.e cognitivement ou émotionnellement", "nextCardId": "jesuispasbiendansmatete"}
-      ]
-    },
-    {
-      "id": "7",
-      "title": "J'ai sommeil",
-      "items": [
-        { "text": "Faire une sieste de 20 min dans le canapé, sous la couverture lestée"},
-        { "text": "Faire une sieste de 20 min dans le lit, sous la couette"},
-        { "text": "Aller me coucher plus tôt le soir"},
-        { "text": "Me coucher dans le lit ou sur le canapé et regarder un film ou une série"}
-      ]
-    },
-    {
-      "id": "8",
-      "title": "J'arrive pas à dormir",
-      "items": [
-        { "text": "J'ai du mal à m'endormir", "nextCardId": "8-1"},
-        { "text": "Je fais une insomnie", "nextCardId": "8-2"}
-      ]
-    },
-    {
-      "id": "8-1",
-      "title": "J'ai du mal à m'endormir",
-      "items": [
-        { "text": "(a remplir)"}
-      ]
-    },
-    {
-      "id": "8-2",
-      "title": "Je fais une insomnie",
-      "items": [
-        { "text": "(a remplir)"}
-      ]
-    },
-    {
-      "id": "trucssensoriels",
-      "title": "Trucs sensoriels",
-      "items": [
-        { "text": "Je me sens sale", "nextCardId": "10" },
-        { "text": "Ca me gratte", "nextCardId": "11" },
-        { "text": "Je sens une odeur", "nextCardId": "12" },
-        { "text": "Le bruit me dérange", "nextCardId": "13" }
-      ]
-    },
-    {
-      "id": "10",
-      "title": "Je me sens sale",
-      "items": [
-        { "text": "Me laver au robinet"},
-        { "text": "Prendre une douche"},
-        { "text": "Changer de vêtements"}
-      ]
-    },   
-    {
-      "id": "11",
-      "title": "Ca me gratte",
-      "items": [
-        { "text": "Est-ce que je me sens sale ?","nextCardId": "10"},
-        { "text": " Mettre de la crème hydratante ou du beurre de karité"},
-        { "text": "Me gratter sous la douche avec le gratte gratte "},
-        { "text": "Me gratter avec les mains / la brosse"},
-        { "text": "Demander à quelqu'un de me gratter"}
-      ]
-    },   
-    {
-      "id": "12",
-      "title": "Je sens une odeur",
-      "text": "Trouver l'origine de l'odeur",
-      "items": [
-        { "text": "L'odeur vient de mon propre corps", "nextCardId": "12-1"},
-        { "text": "L'odeur vient de dedans chez moi", "nextCardId": "12-2"},
-        { "text": "L'odeur vient de dehors", "nextCardId": "12-3"}
-      ]
-    },   
-    {
-      "id": "12-1",
-      "title": "L'odeur vient de mon propre corps",
-      "items": [
-        { "text": "Me laver les mains" },
-        { "text": "Me laver le visage" },
-        { "text": "Me laver complètement" },
-        { "text": "Changer de vêtements" },
-        { "text": "Mettre du parfum" },
-        { "text": "Mettre une crème parfumée sur les mains et le visage" }
-      ]
-    },
-    {
-      "id": "12-2",
-      "title": "L'odeur vient de dedans chez moi",
-      "items": [
-        { "text": "Laver les couvertures / coussins / draps" },
-        { "text": "Aérer les pièces en ouvrant les fenêtres" },
-        { "text": "Allumer une bougie parfumée" },
-        { "text": "Mettre de l'huile essentielle de lavande" },
-        { "text": "Laver le sol avec eau + huile essentielle de menthe poivrée" }
-      ]
-    },
-    {
-      "id": "12-3",
-      "title": "L'odeur vient de dehors",
-      "items": [
-        { "text": "Fermer les fenêtres" },
-        { "text": "Allumer une bougie parfumée" },
-        { "text": "Mettre de l'huile esentielle de lavande" },
-        { "text": "Laver le sol avec eau + huile essentielle de menthe poivrée" }
-      ]
-    },
-    {
-      "id": "13",
-      "title": "Le bruit me dérange",
-      "text": "Trouver l'origine du bruit",
-      "items": [
-        { "text": "Le bruit vient de dehors", "nextCardId": "13-1" },
-        { "text": "Le bruit vient de dedans la maison", "nextCardId": "13-2" }
-      ]
-    },   
-    {
-      "id": "13-1",
-      "title": "Le bruit vient de dehors",
-      "items": [
-        { "text": "(a remplir)"}
-      ]
-    },
-    {
-      "id": "13-2",
-      "title": "Le bruit vient de dedans la maison",
-      "items": [
-        { "text": "(a remplir)"}
-      ]
-    },
-    {
-      "id": "jaimaldansmoncorps",
-      "title": "J'ai mal dans mon corps",
-      "items": [
-        { "text": "J'ai les épaules et / ou la nuque tendu.e.s", "nextCardId": "20" },
-        { "text": "J'ai mal aux yeux / j'ai les yeux gonflés", "nextCardId": "21" },
-        { "text": "J'ai mal de tête", "nextCardId": "22" },
-        { "text": "Je ressens une tension le long de la colonne vertébrale", "nextCardId": "23" },
-        { "text": "J'ai mal au ventre", "nextCardId": "24" },
-        { "text": "J'ai le ventre qui gonflé", "nextCardId": "25" },
-        { "text": "Je me sens physiquement oppressé.e", "nextCardId": "26" },
-        { "text": "Je respire mal", "nextCardId": "27" },
-        { "text": "Je ne sens plus mon corps", "nextCardId": "28" }
-      ]
-    },
-    {
-      "id": "20",
-      "title": "J'ai les épaules et/ou la nuque tendu.e.s",
-      "items": [
-        { "text": "(a remplir)"}
-      ]
-    },
-    {
-      "id": "21",
-      "title": "J'ai mal aux yeux / j'ai les yeux gonflés",
-      "items": [
-        { "text": "(a remplir)"}
-      ]
-    },
-    {
-      "id": "22",
-      "title": "J'ai mal à la tête",
-      "items": [
-        { "text": "(a remplir)"}
-      ]
-    },
-    {
-      "id": "23",
-      "title": "Je ressens une tension le long de la colonne vertébrale",
-      "items": [
-        { "text": "(a remplir)"}
-      ]
-    },
-    {
-      "id": "24",
-      "title": "J'ai mal au ventre / j'ai le ventre gonflé",
-      "items": [
-        { "text": "(a remplir)"}
-      ]
-    },
-    {
-      "id": "25",
-      "title": "Je me sens oppressé physiquement",
-      "items": [
-        { "text": "(a remplir)"}
-      ]
-    },
-    {
-      "id": "26",
-      "title": "Je respire mal",
-      "items": [
-        { "text": "(a remplir)"}
-      ]
-    },
-    {
-      "id": "27",
-      "title": "Je ne sens plus mon corps",
-      "items": [
-        { "text": "(a remplir)"}
-      ]
-    },
-    {
-      "id": "jeressensdesemotionsfortes",
-      "title": "Je ressens des émotions fortes",
-      "items": [
-        { "text": "J'ai peur", "nextCardId": "30" },
-        { "text": "J'angoisse", "nextCardId": "31" },
-        { "text": "Je me sens en colère", "nextCardId": "32" },
-        { "text": "Je me sens seul.e", "nextCardId": "33" },
-        { "text": "Je me sens abandonné.e", "nextCardId": "34" },
-        { "text": "Je m'ennui.e profondément", "nextCardId": "35" },
-        { "text": "Je me sens sur-excité.e", "nextCardId": "36" }
-      ]
-    },
-    {
-      "id": "jesuispasbiendansmatete",
-      "title": "Je suis pas bien dans ma tête",
-      "items": [
-        { "text": "Je suis facilement irritable", "nextCardId": "40" },
-        { "text": "J'ai l'impression que rien ne va, c'est trop dur", "nextCardId": "41" },        { "text": "J'ai des pensées anxieuses qui tournent", "nextCardId": "42" },
-        { "text": "J'ai besoin de taper/casser/faire du mal", "nextCardId": "43" },
-        { "text": "J'ai la sensation que ma tête est trop pleine", "nextCardId": "44" },
-        { "text": "Je me sens vide/vidé.e/épuisé.e", "nextCardId": "45" }
-      ]
-    },
-   
-   
-    {
-      "id": "end",
-      "title": "Bravo !",
-      "items": [{ "text": "( ˶ˆᗜˆ˵ ) " }]
     }
   ]
 }

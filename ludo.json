@@ -27,14 +27,14 @@
       "title": "Tu peux...",
       "items": [
         { "text": "Le dire à qq oralement", "nextCardId": "exister_dire" },
-        { "text": "L'écrire à qq", "nextCardId": "exiter_ecrire_qq" },
-        { "text": "L'écrire à moi-même", "nextCardId": "exiter_ecrire_moi" },
-        { "text": "Le dessiner", "nextCardId": "" },
-        { "text": "Le chanter", "nextCardId": "" },
-        { "text": "Le danser", "nextCardId": "" },
-        { "text": "Le crier", "nextCardId": "" },
-        { "text": "Le méditer", "nextCardId": "" },
-        { "text": "Respirer avec", "nextCardId": "" },
+        { "text": "L'écrire à qq", "nextCardId": "exister_ecrire_qq" },
+        { "text": "L'écrire à moi-même", "nextCardId": "exister_ecrire_moi" },
+        { "text": "Le dessiner", "nextCardId": "exister_dessiner" },
+        { "text": "Le chanter", "nextCardId": "exister_chanter" },
+        { "text": "Le danser", "nextCardId": "exister_danser" },
+        { "text": "Le crier", "nextCardId": "exister_crier" },
+        { "text": "Le méditer", "nextCardId": "exister_mediter" },
+        { "text": "Respirer avec", "nextCardId": "exister_respirer" },
         { "text": "Utiliser les cartes d'emotions/ressentis/besoins", "nextCardId": "exister_utiliser_cartes" }
       ]
     },
@@ -42,13 +42,13 @@
       "id": "besoin_de",
       "title": "As-tu besoin de...",
       "items": [
-        { "text": "Défouler", "nextCardId": "1" },
-        { "text": "Détendre", "nextCardId": "2" },
-        { "text": "Jouer", "nextCardId": "3" },
-        { "text": "Organiser", "nextCardId": "4" },
-        { "text": "Détourner l'attention", "nextCardId": "5" },
-        { "text": "Contact physique", "nextCardId": "6" },
-        { "text": "Aide extérieure", "nextCardId": "7" }
+        { "text": "Défouler", "nextCardId": "besoin_défouler" },
+        { "text": "Détendre", "nextCardId": "besoin_detendre" },
+        { "text": "Jouer", "nextCardId": "besoin_jouer" },
+        { "text": "Organiser", "nextCardId": "besoin_organiser" },
+        { "text": "Détourner l'attention", "nextCardId": "besoin_detourner_attention" },
+        { "text": "Contact physique", "nextCardId": "besoin_contact_physique" },
+        { "text": "Aide extérieure", "nextCardId": "beson_aide_exterieure" }
       ]
     },
     {

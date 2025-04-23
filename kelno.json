@@ -1,9 +1,9 @@
 {
-  "id": "gestion_crise",
-  "title": "Help me",
+  "id": "kelno",
+  "title": "Kelno",
   "lang": "fr",
   "formatVersion": 1,
-  "isDefaultForLanguage": true,
+  "isDefaultForLanguage": false,
   "cards": [
     {
       "id": "start",

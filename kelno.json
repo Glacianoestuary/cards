@@ -2,6 +2,8 @@
   "id": "kelno",
   "title": "Kelno",
   "lang": "fr",
+  "description": "Mes cartes super secrètes",
+  "author": "Kelno",
   "formatVersion": 1,
   "isDefaultForLanguage": false,
   "cards": [

@@ -2,8 +2,7 @@
     "json.schemas": [
         {
             "fileMatch": [
-                "**ludo.jsonc",
-                "**kelno.jsonc"
+                "**.jsonc"
             ],
             "url": "https://raw.githubusercontent.com/kelno/analog-brain/refs/heads/main/analog-brain-tool/public/decks/schema.json"
         }

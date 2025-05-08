@@ -10,46 +10,108 @@
       "id": "keskisspass",
       "title": "Je suis là, je vais t'aider. Tu sais ce que tu ressens/vis ?",
       "items": [
-        { "text": "Oui", "nextCardId": "ressens_oui" },
-        { "text": "Je ne sais pas", "nextCardId": "ressens_non" }
+        {
+          "text": "Oui",
+          "nextCardId": "ressens_oui"
+        },
+        {
+          "text": "Je ne sais pas",
+          "nextCardId": "ressens_non"
+        }
       ]
     },
-    /* TEST ! */
     {
       "id": "ressens_oui",
       "title": "Ok, est-ce que tu veux...",
       "items": [
-        { "text": "Agir, parce que tu veux une solution maintenant", "nextCardId": "besoin_de" },
-        { "text": "Prendre le temps de faire exister ce que tu vis", "nextCardId": "faire_exister" }
+        {
+          "text": "Agir, parce que tu veux une solution maintenant",
+          "nextCardId": "besoin_de"
+        },
+        {
+          "text": "Prendre le temps de faire exister ce que tu vis",
+          "nextCardId": "faire_exister"
+        }
       ]
     },
     {
       "id": "faire_exister",
       "title": "Tu peux...",
       "items": [
-        { "text": "Le dire à qq oralement", "nextCardId": "exister_dire" },
-        { "text": "L'écrire à qq", "nextCardId": "exister_ecrire_qq" },
-        { "text": "L'écrire à moi-même", "nextCardId": "exister_ecrire_moi" },
-        { "text": "Le dessiner", "nextCardId": "exister_dessiner" },
-        { "text": "Le chanter", "nextCardId": "exister_chanter" },
-        { "text": "Le danser", "nextCardId": "exister_danser" },
-        { "text": "Le crier", "nextCardId": "exister_crier" },
-        { "text": "Le méditer", "nextCardId": "exister_mediter" },
-        { "text": "Respirer avec", "nextCardId": "exister_respirer" },
-        { "text": "Utiliser les cartes d'emotions/ressentis/besoins", "nextCardId": "exister_utiliser_cartes" }
+        {
+          "text": "Le dire à qq oralement",
+          "nextCardId": "exister_dire"
+        },
+        {
+          "text": "L'écrire à qq",
+          "nextCardId": "exister_ecrire_qq"
+        },
+        {
+          "text": "L'écrire à moi-même",
+          "nextCardId": "exister_ecrire_moi"
+        },
+        {
+          "text": "Le dessiner",
+          "nextCardId": "exister_dessiner"
+        },
+        {
+          "text": "Le chanter",
+          "nextCardId": "exister_chanter"
+        },
+        {
+          "text": "Le danser",
+          "nextCardId": "exister_danser"
+        },
+        {
+          "text": "Le crier",
+          "nextCardId": "exister_crier"
+        },
+        {
+          "text": "Le méditer",
+          "nextCardId": "exister_mediter"
+        },
+        {
+          "text": "Respirer avec",
+          "nextCardId": "exister_respirer"
+        },
+        {
+          "text": "Utiliser les cartes d'emotions/ressentis/besoins",
+          "nextCardId": "exister_utiliser_cartes"
+        }
       ]
     },
     {
       "id": "besoin_de",
       "title": "As-tu besoin de...",
       "items": [
-        { "text": "Défouler", "nextCardId": "besoin_défouler" },
-        { "text": "Détendre", "nextCardId": "besoin_detendre" },
-        { "text": "Jouer", "nextCardId": "besoin_jouer" },
-        { "text": "Organiser", "nextCardId": "besoin_organiser" },
-        { "text": "Détourner l'attention", "nextCardId": "besoin_detourner_attention" },
-        { "text": "Contact physique", "nextCardId": "besoin_contact_physique" },
-        { "text": "Aide extérieure", "nextCardId": "besoin_aide_exterieure" }
+        {
+          "text": "Défouler",
+          "nextCardId": "besoin_défouler"
+        },
+        {
+          "text": "Détendre",
+          "nextCardId": "besoin_detendre"
+        },
+        {
+          "text": "Jouer",
+          "nextCardId": "besoin_jouer"
+        },
+        {
+          "text": "Organiser",
+          "nextCardId": "besoin_organiser"
+        },
+        {
+          "text": "Détourner l'attention",
+          "nextCardId": "besoin_detourner_attention"
+        },
+        {
+          "text": "Contact physique",
+          "nextCardId": "besoin_contact_physique"
+        },
+        {
+          "text": "Aide extérieure",
+          "nextCardId": "besoin_aide_exterieure"
+        }
       ]
     },
     {
@@ -57,90 +119,175 @@
       "title": "Je te propose de checker une par une ces catégories :",
       "description": "",
       "items": [
-        { "text": "Mes besoins vitaux", "nextCardId": "besoins_vitaux" },
-        { "text": "Trucs sensoriels", "nextCardId": "trucs_sensoriels" },
-        { "text": "J'ai mal dans mon corps", "nextCardId": "mal_corps" },
-        { "text": "Je ressens des émotions fortes", "nextCardId": "emotions_fortes" },
-        { "text": "Je ne suis pas bien dans ma tête", "nextCardId": "pas_bien_tete" }
+        {
+          "text": "Mes besoins vitaux",
+          "nextCardId": "besoins_vitaux"
+        },
+        {
+          "text": "Trucs sensoriels",
+          "nextCardId": "trucs_sensoriels"
+        },
+        {
+          "text": "J'ai mal dans mon corps",
+          "nextCardId": "mal_corps"
+        },
+        {
+          "text": "Je ressens des émotions fortes",
+          "nextCardId": "emotions_fortes"
+        },
+        {
+          "text": "Je ne suis pas bien dans ma tête",
+          "nextCardId": "pas_bien_tete"
+        }
       ]
     },
     {
       "id": "besoins_vitaux",
       "title": "Est-ce que tu peux dire si tu as...",
       "items": [
-        { "text": "Froid", "nextCardId": "besoin_froid" },
-        { "text": "Chaud", "nextCardId": "besoin_chaud" },
-        { "text": "Faim", "nextCardId": "besoin_faim" },
-        { "text": "Soif", "nextCardId": "besoin_soif" },
-        { "text": "Envie d'aller aux wc", "nextCardId": "besoin_wc" },
-        { "text": "Fatigue physique", "nextCardId": "besoin_fatigue_physique" },
-        { "text": "Fatigue émotionelle ou cognitive", "nextCardId": "pas_bien_tete" }
+        {
+          "text": "Froid",
+          "nextCardId": "besoin_froid"
+        },
+        {
+          "text": "Chaud",
+          "nextCardId": "besoin_chaud"
+        },
+        {
+          "text": "Faim",
+          "nextCardId": "besoin_faim"
+        },
+        {
+          "text": "Soif",
+          "nextCardId": "besoin_soif"
+        },
+        {
+          "text": "Envie d'aller aux wc",
+          "nextCardId": "besoin_wc"
+        },
+        {
+          "text": "Fatigue physique",
+          "nextCardId": "besoin_fatigue_physique"
+        },
+        {
+          "text": "Fatigue émotionelle ou cognitive",
+          "nextCardId": "pas_bien_tete"
+        }
       ]
     },
     {
       "id": "besoin_froid",
       "title": "Ok tu as froid, alors je te propose :",
       "items": [
-        { "text": "Mettre une veste / un pull" },
-        { "text": "Mettre ma combinaison panthère" },
-        { "text": "Utiliser ma bouillote chaude" },
-        { "text": "Faire un feu / mettre le chauffage" }
+        {
+          "text": "Mettre une veste / un pull"
+        },
+        {
+          "text": "Mettre ma combinaison panthère"
+        },
+        {
+          "text": "Utiliser ma bouillote chaude"
+        },
+        {
+          "text": "Faire un feu / mettre le chauffage"
+        }
       ]
     },
     {
       "id": "besoin_chaud",
       "title": "Ok tu as chaud, alors je te propose :",
       "items": [
-        { "text": "Enlever mon sweat / ma veste" },
-        { "text": "Changer de tshirt" },
-        { "text": "Me mettre de l'eau sur le visage, les bras, la poitrine, la nuque" },
-        { "text": "Mettre le pain de glace sur ma poitrine, mon visage, ma nuque" },
-        { "text": "Prendre une douche froide" },
-        { "text": "Ouvrir une fenêtre" }
-       
+        {
+          "text": "Enlever mon sweat / ma veste"
+        },
+        {
+          "text": "Changer de tshirt"
+        },
+        {
+          "text": "Me mettre de l'eau sur le visage, les bras, la poitrine, la nuque"
+        },
+        {
+          "text": "Mettre le pain de glace sur ma poitrine, mon visage, ma nuque"
+        },
+        {
+          "text": "Prendre une douche froide"
+        },
+        {
+          "text": "Ouvrir une fenêtre"
+        }
       ]
     },
     {
       "id": "besoin_faim",
       "title": "Ok tu as faim, alors je te propose :",
       "items": [
-        { "text": "Prendre mon repas du midi / du soir / le gouter" },
-        { "text": "Prendre une collation : amandes, fruit, yaourt, tartines" }
+        {
+          "text": "Prendre mon repas du midi / du soir / le gouter"
+        },
+        {
+          "text": "Prendre une collation : amandes, fruit, yaourt, tartines"
+        }
       ]
     },
     {
       "id": "besoin_soif",
       "title": "Ok tu as soif, alors je te propose :",
       "items": [
-        { "text": "Boire de l'eau" },
-        { "text": "Me faire une tisane" }
+        {
+          "text": "Boire de l'eau"
+        },
+        {
+          "text": "Me faire une tisane"
+        }
       ]
     },
     {
       "id": "besoin_wc",
       "title": "Tu as envie d'aller aux wc",
       "items": [
-        { "text": "- Aller aux wc" }
+        {
+          "text": "- Aller aux wc"
+        }
       ]
     },
     {
       "id": "besoin_fatigue_physique",
       "title": "besoin_fatigue_physique",
       "items": [
-        { "text": "Faire une sieste de 20 min dans le canapé, sous la couverture lestée" },
-        { "text": "Faire une sieste de 20 min dans le lit, sous la couette ou couverture lestée" },
-        { "text": "Aller me coucher plus tôt ce soir" },
-        { "text": "Me coucher dans le lit ou sur le canapé et regarder un film ou une série" }
+        {
+          "text": "Faire une sieste de 20 min dans le canapé, sous la couverture lestée"
+        },
+        {
+          "text": "Faire une sieste de 20 min dans le lit, sous la couette ou couverture lestée"
+        },
+        {
+          "text": "Aller me coucher plus tôt ce soir"
+        },
+        {
+          "text": "Me coucher dans le lit ou sur le canapé et regarder un film ou une série"
+        }
       ]
     },
     {
       "id": "trucs_sensoriels",
       "title": "Trucs sensoriels",
       "items": [
-        { "text": "Je me sens sale", "nextCardId": "besoin_sale" },
-        { "text": "Ca me gratte", "nextCardId": "besoin_gratte" },
-        { "text": "Je sens une odeur", "nextCardId": "besoin_odeur" },
-        { "text": "Le bruit me dérange", "nextCardId": "besoin_bruit" }
+        {
+          "text": "Je me sens sale",
+          "nextCardId": "besoin_sale"
+        },
+        {
+          "text": "Ca me gratte",
+          "nextCardId": "besoin_gratte"
+        },
+        {
+          "text": "Je sens une odeur",
+          "nextCardId": "besoin_odeur"
+        },
+        {
+          "text": "Le bruit me dérange",
+          "nextCardId": "besoin_bruit"
+        }
       ]
     },
     {
@@ -167,14 +314,38 @@
       "id": "mal_corps",
       "title": "J'ai mal dans mon corps",
       "items": [
-        { "text": "J'ai les épaules et/ou la nuque tendu.e.s", "nextCardId": "mal_epaules_nuque" },
-        { "text": "J'ai mal aux yeux / j'ai les yeux gonflés", "nextCardId": "mal_yeux" },
-        { "text": "J'ai mal à la tête", "nextCardId": "mal_tete" },
-        { "text": "Je ressens une tension le long de la colonne vertébrale", "nextCardId": "tension_colonne" },
-        { "text": "J'ai mal au ventre / j'ai le ventre gonflé", "nextCardId": "mal_ventre" },
-        { "text": "Je me sens oppressé physiquement", "nextCardId": "oppression_physique" },
-        { "text": "Je respire mal", "nextCardId": "respiration_mal" },
-        { "text": "Je ne sens plus mon corps", "nextCardId": "ne_sens_plus_corps" }
+        {
+          "text": "J'ai les épaules et/ou la nuque tendu.e.s",
+          "nextCardId": "mal_epaules_nuque"
+        },
+        {
+          "text": "J'ai mal aux yeux / j'ai les yeux gonflés",
+          "nextCardId": "mal_yeux"
+        },
+        {
+          "text": "J'ai mal à la tête",
+          "nextCardId": "mal_tete"
+        },
+        {
+          "text": "Je ressens une tension le long de la colonne vertébrale",
+          "nextCardId": "tension_colonne"
+        },
+        {
+          "text": "J'ai mal au ventre / j'ai le ventre gonflé",
+          "nextCardId": "mal_ventre"
+        },
+        {
+          "text": "Je me sens oppressé physiquement",
+          "nextCardId": "oppression_physique"
+        },
+        {
+          "text": "Je respire mal",
+          "nextCardId": "respiration_mal"
+        },
+        {
+          "text": "Je ne sens plus mon corps",
+          "nextCardId": "ne_sens_plus_corps"
+        }
       ]
     },
     {

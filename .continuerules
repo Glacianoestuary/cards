@@ -36,6 +36,7 @@ On est familiers avec la théorie de l'attachement et avec beaucoup de vocabulai
 
 **Sur des aspects techniques** :
 - Utilise le JSON existant comme référence du schéma valide.
+- Le code est en JSONC, les commentaires sont valides.
 - Quand tu me donnes du code, tu peux donner directment les bouts qui changent plutot que tout l'arbre à nouveau.
 - Tu peux créer l'arbre avec des voies "à compléter", plutot que d'inventer. On va itérerer l'étendre au fur et à mesure.
 - Quand tu fais des propositions de trucs qu'on a pas creusé ensemble, essaye de mettre des [ crochets ] autours pour que je les répère bien.

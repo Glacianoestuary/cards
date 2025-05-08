@@ -6,7 +6,7 @@
   "lang": "fr",
   "isDefaultForLanguage": true,
   "description": "Les cartes de super Ludo, le super héros qui va sauver tout le monde !",
-  "cards": [
+  "cards": [     
     {
       "id": "keskisspass",
       "title": "Je suis là, je vais t'aider. Tu sais ce que tu ressens/vis ?",

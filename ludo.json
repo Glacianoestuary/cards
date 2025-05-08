@@ -72,7 +72,8 @@
         { "text": "Faim", "nextCardId": "besoin_faim" },
         { "text": "Soif", "nextCardId": "besoin_soif" },
         { "text": "Envie d'aller aux wc", "nextCardId": "besoin_wc" },
-        { "text": "Je me sens fatigué.e", "nextCardId": "besoin_fatigue" }
+        { "text": "Fatigue physique", "nextCardId": "besoin_fatigue_physique" },
+        { "text": "Fatigue émotionelle ou cognitive", "nextCardId": "pas_bien_tete" }
       ]
     },
     {
@@ -116,17 +117,19 @@
     },
     {
       "id": "besoin_wc",
-      "title": "J'ai envie d'aller aux wc",
+      "title": "Tu as envie d'aller aux wc",
       "items": [
         { "text": "- Aller aux wc" }
       ]
     },
     {
-      "id": "besoin_fatigue",
-      "title": "Je me sens fatigué.e",
+      "id": "besoin_fatigue_physique",
+      "title": "besoin_fatigue_physique",
       "items": [
-        { "text": "1", "nextCardId": "besoin_fatigue" },
-        { "text": "2", "nextCardId": "besoin_fatigue" }
+        { "text": "Faire une sieste de 20 min dans le canapé, sous la couverture lestée" },
+        { "text": "Faire une sieste de 20 min dans le lit, sous la couette ou couverture lestée" },
+        { "text": "Aller me coucher plus tôt ce soir" },
+        { "text": "Me coucher dans le lit ou sur le canapé et regarder un film ou une série" }
       ]
     },
     {

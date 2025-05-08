@@ -65,7 +65,7 @@
     },
     {
       "id": "besoins_vitaux",
-      "title": "Est-ce que tu peux dire si tu ...",
+      "title": "Est-ce que tu peux dire si tu as...",
       "items": [
         { "text": "Froid", "nextCardId": "besoin_froid" },
         { "text": "Chaud", "nextCardId": "besoin_chaud" },
@@ -77,33 +77,57 @@
     },
     {
       "id": "besoin_froid",
-      "title": "J'ai froid",
-      "items": []
+      "title": "Ok tu as froid, alors je te propose :",
+      "items": [
+        { "text": "Mettre une veste / un pull" },
+        { "text": "Mettre ma combinaison panthère" },
+        { "text": "Utiliser ma bouillote chaude" },
+        { "text": "Faire un feu / mettre le chauffage" }
+      ]
     },
     {
       "id": "besoin_chaud",
-      "title": "J'ai chaud",
-      "items": []
+      "title": "Ok tu as chaud, alors je te propose :",
+      "items": [
+        { "text": "Enlever mon sweat / ma veste" },
+        { "text": "Changer de tshirt" },
+        { "text": "Me mettre de l'eau sur le visage, les bras, la poitrine, la nuque" },
+        { "text": "Mettre le pain de glace sur ma poitrine, mon visage, ma nuque" },
+        { "text": "Prendre une douche froide" },
+        { "text": "Ouvrir une fenêtre" }
+       
+      ]
     },
     {
       "id": "besoin_faim",
-      "title": "J'ai faim",
-      "items": []
+      "title": "Ok tu as faim, alors je te propose :",
+      "items": [
+        { "text": "Prendre mon repas du midi / du soir / le gouter" },
+        { "text": "Prendre une collation : amandes, fruit, yaourt, tartines" }
+      ]
     },
     {
       "id": "besoin_soif",
-      "title": "J'ai soif",
-      "items": []
+      "title": "Ok tu as soif, alors je te propose :",
+      "items": [
+        { "text": "Boire de l'eau" },
+        { "text": "Me faire une tisane" }
+      ]
     },
     {
       "id": "besoin_wc",
       "title": "J'ai envie d'aller aux wc",
-      "items": []
+      "items": [
+        { "text": "- Aller aux wc" }
+      ]
     },
     {
       "id": "besoin_fatigue",
       "title": "Je me sens fatigué.e",
-      "items": []
+      "items": [
+        { "text": "1", "nextCardId": "besoin_fatigue" },
+        { "text": "2", "nextCardId": "besoin_fatigue" }
+      ]
     },
     {
       "id": "trucs_sensoriels",

@@ -53,7 +53,8 @@
     },
     {
       "id": "ressens_non",
-      "title": "Je te propose de checker une par une ces catégories",
+      "title": "Je te propose de checker une par une ces catégories :",
+      "description": "",
       "items": [
         { "text": "Mes besoins vitaux", "nextCardId": "besoins_vitaux" },
         { "text": "Trucs sensoriels", "nextCardId": "trucs_sensoriels" },
@@ -64,16 +65,14 @@
     },
     {
       "id": "besoins_vitaux",
-      "title": "Mes besoins vitaux",
+      "title": "Est-ce que tu peux dire si tu ...",
       "items": [
-        { "text": "J'ai froid", "nextCardId": "besoin_froid" },
-        { "text": "J'ai chaud", "nextCardId": "besoin_chaud" },
-        { "text": "J'ai faim", "nextCardId": "besoin_faim" },
-        { "text": "J'ai soif", "nextCardId": "besoin_soif" },
-        { "text": "J'ai envie d'aller aux wc", "nextCardId": "besoin_wc" },
-        { "text": "Je me sens fatigué.e", "nextCardId": "besoin_fatigue" },
-        { "text": "J'ai sommeil", "nextCardId": "besoin_sommeil" },
-        { "text": "J'arrive pas à dormir", "nextCardId": "besoin_pas_dormir" }
+        { "text": "Froid", "nextCardId": "besoin_froid" },
+        { "text": "Chaud", "nextCardId": "besoin_chaud" },
+        { "text": "Faim", "nextCardId": "besoin_faim" },
+        { "text": "Soif", "nextCardId": "besoin_soif" },
+        { "text": "Envie d'aller aux wc", "nextCardId": "besoin_wc" },
+        { "text": "Je me sens fatigué.e", "nextCardId": "besoin_fatigue" }
       ]
     },
     {
@@ -104,16 +103,6 @@
     {
       "id": "besoin_fatigue",
       "title": "Je me sens fatigué.e",
-      "items": []
-    },
-    {
-      "id": "besoin_sommeil",
-      "title": "J'ai sommeil",
-      "items": []
-    },
-    {
-      "id": "besoin_pas_dormir",
-      "title": "J'arrive pas à dormir",
       "items": []
     },
     {

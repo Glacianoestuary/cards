@@ -53,10 +53,113 @@
     },
     {
       "id": "ressens_non",
-      "title": "Je te propose de checker une par une ces catégories",
+      "title": "Tu peux ajouter:",
       "items": [
-        
+        { "text": "Mes besoins vitaux", "nextCardId": "besoins_vitaux" },
+        { "text": "Trucs sensoriels", "nextCardId": "trucs_sensoriels" },
+        { "text": "J'ai mal dans mon corps", "nextCardId": "mal_corps" },
+        { "text": "Je ressens des émotions fortes", "nextCardId": "emotions_fortes" },
+        { "text": "Je ne suis pas bien dans ma tête", "nextCardId": "pas_bien_tete" }
       ]
+    },
+    {
+      "id": "besoins_vitaux",
+      "title": "Mes besoins vitaux",
+      "items": [
+        { "text": "J'ai froid", "nextCardId": "besoin_froid" },
+        { "text": "J'ai chaud", "nextCardId": "besoin_chaud" },
+        { "text": "J'ai faim", "nextCardId": "besoin_faim" },
+        { "text": "J'ai soif", "nextCardId": "besoin_soif" },
+        { "text": "J'ai envie d'aller aux wc", "nextCardId": "besoin_wc" },
+        { "text": "Je me sens fatigué.e", "nextCardId": "besoin_fatigue" },
+        { "text": "J'ai sommeil", "nextCardId": "besoin_sommeil" },
+        { "text": "J'arrive pas à dormir", "nextCardId": "besoin_pas_dormir" }
+      ]
+    },
+    {
+      "id": "besoin_froid",
+      "title": "J'ai froid",
+      "items": []
+    },
+    {
+      "id": "besoin_chaud",
+      "title": "J'ai chaud",
+      "items": []
+    },
+    {
+      "id": "besoin_faim",
+      "title": "J'ai faim",
+      "items": []
+    },
+    {
+      "id": "besoin_soif",
+      "title": "J'ai soif",
+      "items": []
+    },
+    {
+      "id": "besoin_wc",
+      "title": "J'ai envie d'aller aux wc",
+      "items": []
+    },
+    {
+      "id": "besoin_fatigue",
+      "title": "Je me sens fatigué.e",
+      "items": []
+    },
+    {
+      "id": "besoin_sommeil",
+      "title": "J'ai sommeil",
+      "items": []
+    },
+    {
+      "id": "besoin_pas_dormir",
+      "title": "J'arrive pas à dormir",
+      "items": []
+    },
+    {
+      "id": "trucs_sensoriels",
+      "title": "Trucs sensoriels",
+      "items": [
+        { "text": "Je me sens sale", "nextCardId": "besoin_sale" },
+        { "text": "Ca me gratte", "nextCardId": "besoin_gratte" },
+        { "text": "Je sens une odeur", "nextCardId": "besoin_odeur" },
+        { "text": "Le bruit me dérange", "nextCardId": "besoin_bruit" }
+      ]
+    },
+    {
+      "id": "besoin_sale",
+      "title": "Je me sens sale",
+      "items": []
+    },
+    {
+      "id": "besoin_gratte",
+      "title": "Ca me gratte",
+      "items": []
+    },
+    {
+      "id": "besoin_odeur",
+      "title": "Je sens une odeur",
+      "items": []
+    },
+    {
+      "id": "besoin_bruit",
+      "title": "Le bruit me dérange",
+      "items": []
+    },
+    {
+      "id": "mal_corps",
+      "title": "J'ai mal dans mon corps",
+      "items": []
+    },
+    {
+      "id": "emotions_fortes",
+      "title": "Je ressens des émotions fortes",
+      "items": []
+    },
+    {
+      "id": "pas_bien_tete",
+      "title": "Je ne suis pas bien dans ma tête",
+      "items": []
     }
   ]
 }

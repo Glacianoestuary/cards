@@ -4,7 +4,7 @@
             "fileMatch": [
                 "**ludo.json"
             ],
-            "url": "https://raw.githubusercontent.com/kelno/analog-brain/refs/heads/main/analog-brain-tool/public/sets/schema.json"
+            "url": "https://raw.githubusercontent.com/kelno/analog-brain/refs/heads/main/analog-brain-tool/public/decks/schema.json"
         }
     ]
 }

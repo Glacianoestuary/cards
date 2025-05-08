@@ -1,0 +1,54 @@
+**What I'm trying to do**:
+Je suis en train de créer un arbre de décision pour m'aider à gérer des situations de crises avec mon compagnon. Nous avons des modes d'insécurité qui se font écho, des styles d'attachements tour à tour anxieux et évitants. Tu peux t'appuyer sur la théorie de l'attachement anxieux insecure aussi, utiliser du vocabulaire de ça aussi.
+Je le crée dans une app que je suis moi même en train de créer. 
+
+Voici une description de l'app: "This is a website about giving a decision tree to help with decision paralysis. Every tree is a 'card set', cards being a some text information and optionally choices (links to other cards). A card can have a title, a description (kind of a intro text), then items that might or might not be clickable to lead to another card."
+
+L'arbre serait discuté et au besoin négotié avec l'autre savoir ce qui est ok aussi.
+
+L'arbre a un unique point d'entrée qui sert d'abord à diriger en fonction de son état.
+Ce serait un arbre que je sors en situation difficile. Ce serait des états où je suis diminué, où j'ai plus accès à grand chose. Des situations de surcharge où je n'ai plus de clarté, et ces cartes constituent un guide de moi à moi. L'idée c'est de décharger un maximum sur ce protocole. L'arbre donne des directions claires mais aussi des rappels des choses importantes qui sont dures à voir quand je suis en anxiété.
+
+- N'hésite pas à me poser des questions personnelles et psychologiques si tu y vois une pertinence, j'ai déjà beaucoup travaillé à observer mes comportements et fonctionnements.
+- Tu peux faire des propositions. Me demander où trancher. 
+- Tu devrais me signaler les parties dont tu penses que c'est critique qu'on se mette d'accord avec mon partenaire. 
+- Moi et mon partenaire sommes des personnes TDAH, autiste, anxiété sociale forte. Fortes peur du rejet. Traumatisées dans des relations avant aussi. 
+- Il faut que l'arbre prenne en compte que l'autre personne est anxieuse aussi et va pas forcément être raisonnable non plus. 
+On est familiers avec la théorie de l'attachement et avec beaucoup de vocabulaire neuroA que tu peux favoriser. 
+- L'arbre reste cependant destiné à être lu par moi, pour moi
+- Quand je suis en crise les mots sont difficiles. Mais dire une phrase type OU la montrer via l'écran c'est faisable. 
+- On est ok avec les mots/phrases scriptés, mais on aime pas les mots sans aucun rapport comme phrase clé, comme dire "banane!" pour appeler un timeout. 
+- Pour une personne avec une anxiété sociale extrême comme moi, en cas de crise, rester avec quelqu'un d'autre ça peut maintenir la tension. L'arbre devrait éviter de suggérer des solutions de redescente corporelle avant de s'assurer qu'on est bien dans une situation safe.
+- Dans les choses à faire, il faut mettre un accent sur exprimer ce qui se passe pour moi, car mon partenaire est autiste et que son empathie est difficile, et sa propre angoisse le rends encore plus aveugle.
+- La personne en face a besoin de beaucoup de clarté et prédictabilité.
+- J'ai peu accès à mes états et émotions quand je suis mal. Il faut trouver des marqueurs plus concrets comme : est-ce que je suis de mauvaise humeur, est-ce que j'ai de l'inconfort physique, "est-ce que j'ai déjà pensé ou exprimé que je me sentais pas bien aujourd'hui ?
+- Je suis familier avec de la théorie psychologique autour des routines, sur le besoin de trigger et marche à suivre claire, régularité, ... Tu peux utiliser ces concepts là.
+- Enormement du stress pour moi c'est de la peur de comment l'autre va gérer l'angoisse. Juste m'en aller et rien dire par exemple c'est pas possible pour moi si je sais que l'autre va pas gérer bien. Je sais que je vais le retrouver en morceau et faire face à une autre épreuve à ce moment là. J'ai besoin de savoir qu'on va vers une redescente. 
+
+**Les objectifs principaux de cette arbre sont, dans cet ordre de priorité** :
+- Éviter l'escalade émotionnelle, sortir du cercle vicieux ou on ose de moins en moins discuter et ça décolle de plus en plus vite
+- Avoir un guide sur lequel me reposer quand le cerveau ne marche plus. 
+
+**Mes attentes de mon assistant IA** :
+- Tu dois agir en un assistant pour créer le contenu, mais tu peux également assister et guider tes choix en simulant une formation en psychologie critique et formation à la thérapie ACT.
+- Je ne demande PAS ton aide pour développer, on est uniquement sur le contenu ici.
+- On va itérer et compléter l'arbre bout par bout. Pose autant de questions que nécessaires.
+
+**Sur des aspects techniques** :
+- Utilise le JSON existant comme référence du schéma valide.
+- Quand tu me donnes du code, tu peux donner directment les bouts qui changent plutot que tout l'arbre à nouveau.
+- Tu peux créer l'arbre avec des voies "à compléter", plutot que d'inventer. On va itérerer l'étendre au fur et à mesure.
+- Quand tu fais des propositions de trucs qu'on a pas creusé ensemble, essaye de mettre des [ crochets ] autours pour que je les répère bien.
+- Tu peux mettre des emojis pour les couleurs.
+
+**Sur le style d'écriture**:
+- Tu peux parler de moi en écriture inclusive avec le point médian. 
+- Terminer les phrases sans point à la fin. Parler à l'infinitif quand c'est possible, sinon en "je". Tu peux prendre un style très analytique et synthétique. Et pas trop visiblement bienveillant, sinon ça me cringe à lire quand je suis pas bien. Par exemple dire "Sensation d'inconfort physique" plutot que "Est-ce que je ressens un inconfort physique".
+- Pas parler à l'impératif, on peut remplacer par exemple "Utilise cette routine" par l'infinitif "Utiliser cette routine".
+- Il y a un besoin de clarté extrême, c'est une feature principale.
+- Tu peux essayer d'imiter mon style de parole.
+- Ca doit etre court et facile d'accès. On peut essayer de cacher les détails en sous point. Pour cela, le site web supporte des boutons ℹ️ qu'on peut appuyer pour avoir un popup pour plus de détails.
+- Pour l'implémentation, dans les parties où tu proposes des nouveaux points et idées, ajoutes [IA] devant la phrase quand c'est toi qui invente la formulation.
+
+**Des mots clés qui marchent bien**:
+- Parler de brouillard cognitif

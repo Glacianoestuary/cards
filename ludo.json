@@ -14,6 +14,7 @@
         { "text": "Je ne sais pas", "nextCardId": "ressens_non" }
       ]
     },
+    /* TEST ! */
     {
       "id": "ressens_oui",
       "title": "Ok, est-ce que tu veux...",
@@ -48,7 +49,7 @@
         { "text": "Organiser", "nextCardId": "besoin_organiser" },
         { "text": "Détourner l'attention", "nextCardId": "besoin_detourner_attention" },
         { "text": "Contact physique", "nextCardId": "besoin_contact_physique" },
-        { "text": "Aide extérieure", "nextCardId": "beson_aide_exterieure" }
+        { "text": "Aide extérieure", "nextCardId": "besoin_aide_exterieure" }
       ]
     },
     {

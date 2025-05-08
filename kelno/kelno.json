@@ -1,8 +1,8 @@
 {
   "id": "kelno",
-  "title": "Kelno",
+  "title": "Bif bof halp plz",
   "lang": "fr",
-  "description": "Mes cartes super secrètes",
+  "description": "Mes cartes super secrètes\n=(",
   "author": "Kelno",
   "formatVersion": 1,
   "isDefaultForLanguage": false,
@@ -10,6 +10,7 @@
     {
       "id": "start",
       "title": "État actuel ?",
+      "text": "Test!!\nEncore",
       "items": [
         { "text": "🟢 OK ou légère tension : Fatigue, mauvaise humeur, frustré, stressé...", "nextCardId": "cadrage_discussion" },
         { "text": "🟠 Surcharge (ou début de) : Evitement du regard, brouillard, freeze, anxiété, inconfort, ...", "nextCardId": "surcharge" },
@@ -22,8 +23,8 @@
       "title": "Marqueurs concrets",
       "items": [
         { "text": "[todo: marqueurs pour légère tension?]", "nextCardId": "cadrage_discussion" },
-        { "text": "Brouillard mental: [todo: détailler]<br>- Pression dans le front <br>- Nausée", "nextCardId": "surcharge" },
-        { "text": "Impossible ou presque faire des phrases<br>- Envie de capuche/cacher<br>- Freeze physique", "nextCardId": "crise" }
+        { "text": "Brouillard mental:\n- Pression dans le front\n- Nausée\n- [todo: détailler]", "nextCardId": "surcharge" },
+        { "text": "Impossible ou presque faire des phrases\n- Envie de capuche/cacher\n- Freeze physique", "nextCardId": "crise" }
       ]
     },
     {
@@ -50,14 +51,14 @@
       "title": "Timer de sécurité",
       "items": [
         { "text": "Mettre un timer visible. App Visual Timer. \"Quand ça sonne on a max 2-3 phrases encore chacun.\"" },
-        { "text": "À la sonnerie :<br>\"Stop obligatoire." }, 
+        { "text": "À la sonnerie :\n\"Stop obligatoire." }, 
         { "text": "Si besoin, fixer un moment pour en parler.", "nextCardId": "fixer_moment" }
       ]
     },
     {
       "id": "surcharge",
       "title": "🟠 Protocole surcharge",
-      "text": "Exprimer le niveau d'urgence :<br>Est-ce qu'il faut régler ça aujourd'hui ? Ou ça peut attendre ?",
+      "text": "Exprimer le niveau d'urgence :\nEst-ce qu'il faut régler ça aujourd'hui ? Ou ça peut attendre ?",
       "items": [
         { "text": "Si peut attendre", "nextCardId": "fixer_moment"  },
         { "text": "Si vraiment urgent, ok mais avec extra cadre.", "nextCardId": "cadrage_discussion_surcharge"  }
@@ -67,9 +68,9 @@
       "id": "crise",
       "title": "🔴 Urgence crise (brouillon IA)",
       "items": [
-        { "text": "(brouillon IA) Message clé :<br>\"Besoin isolement physique 2h.<br>Je t'envoie un message à [heure].<br>(Pas capable d'interaction même silencieuse)\"" },
-        { "text": "(brouillon IA) À balbutier/montrer :<br>\"CRISE. Isolement complet.<br>Message demain après mon lever.<br>(Pas capable de plus maintenant)\"" },
-        { "text": "(brouillon IA) Checklist survie :<br>1. Casque antibruit<br>2. Playlist Dysphoria (todo étendre plus tard ici)<br>. PC en mode focus" }
+        { "text": "(brouillon IA) Message clé :\n\"Besoin isolement physique 2h.\nJe t'envoie un message à [heure].\n(Pas capable d'interaction même silencieuse)\"" },
+        { "text": "(brouillon IA) À balbutier/montrer :\n\"CRISE. Isolement complet.\nMessage demain après mon lever.\n(Pas capable de plus maintenant)\"" },
+        { "text": "(brouillon IA) Checklist survie :\n1. Casque antibruit\n2. Playlist Dysphoria (todo étendre plus tard ici)\n. PC en mode focus" }
       ]
     },
     {

@@ -53,7 +53,7 @@
     },
     {
       "id": "ressens_non",
-      "title": "Tu peux ajouter:",
+      "title": "Je te propose de checker une par une ces catégories",
       "items": [
         { "text": "Mes besoins vitaux", "nextCardId": "besoins_vitaux" },
         { "text": "Trucs sensoriels", "nextCardId": "trucs_sensoriels" },
@@ -149,6 +149,55 @@
     {
       "id": "mal_corps",
       "title": "J'ai mal dans mon corps",
+      "items": [
+        { "text": "J'ai les épaules et/ou la nuque tendu.e.s", "nextCardId": "mal_epaules_nuque" },
+        { "text": "J'ai mal aux yeux / j'ai les yeux gonflés", "nextCardId": "mal_yeux" },
+        { "text": "J'ai mal à la tête", "nextCardId": "mal_tete" },
+        { "text": "Je ressens une tension le long de la colonne vertébrale", "nextCardId": "tension_colonne" },
+        { "text": "J'ai mal au ventre / j'ai le ventre gonflé", "nextCardId": "mal_ventre" },
+        { "text": "Je me sens oppressé physiquement", "nextCardId": "oppression_physique" },
+        { "text": "Je respire mal", "nextCardId": "respiration_mal" },
+        { "text": "Je ne sens plus mon corps", "nextCardId": "ne_sens_plus_corps" }
+      ]
+    },
+    {
+      "id": "mal_epaules_nuque",
+      "title": "J'ai les épaules et/ou la nuque tendu.e.s",
+      "items": []
+    },
+    {
+      "id": "mal_yeux",
+      "title": "J'ai mal aux yeux / j'ai les yeux gonflés",
+      "items": []
+    },
+    {
+      "id": "mal_tete",
+      "title": "J'ai mal à la tête",
+      "items": []
+    },
+    {
+      "id": "tension_colonne",
+      "title": "Je ressens une tension le long de la colonne vertébrale",
+      "items": []
+    },
+    {
+      "id": "mal_ventre",
+      "title": "J'ai mal au ventre / j'ai le ventre gonflé",
+      "items": []
+    },
+    {
+      "id": "oppression_physique",
+      "title": "Je me sens oppressé physiquement",
+      "items": []
+    },
+    {
+      "id": "respiration_mal",
+      "title": "Je respire mal",
+      "items": []
+    },
+    {
+      "id": "ne_sens_plus_corps",
+      "title": "Je ne sens plus mon corps",
       "items": []
     },
     {

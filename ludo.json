@@ -11,7 +11,7 @@
       "title": "Je suis là, je vais t'aider. Tu sais ce que tu ressens/vis ?",
       "items": [
         { "text": "Oui", "nextCardId": "ressens_oui" },
-        { "text": "Non", "nextCardId": "ressens_non" }
+        { "text": "Je ne sais pas", "nextCardId": "ressens_non" }
       ]
     },
     {
@@ -53,7 +53,7 @@
     },
     {
       "id": "ressens_non",
-      "title": "???",
+      "title": "Je te propose de checker une par une ces catégories",
       "items": [
         
       ]
